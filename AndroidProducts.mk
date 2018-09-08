@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/gzosp_whyred.mk
+    $(LOCAL_DIR)/nitrogen_whyred.mk
