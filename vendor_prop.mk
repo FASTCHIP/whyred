@@ -82,7 +82,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vidc.enc.dcvs.extra-buff-count=2 \
     vendor.vidc.enc.disable_bframes=1 \
     vendor.vidc.dec.enable.downscalar=1 \
-    vendor.vidc.enc.disable.pq=false
+    vendor.vidc.enc.disable.pq=false \
+    persist.camera.HAL3.enabled=true \
+    camera.hal1.packagelist=com.skype.raider,com.google.android.talk,com.whatsapp,com.instagram.android
 
 # CNE
 PRODUCT_PROPERTY_OVERRIDES += \
